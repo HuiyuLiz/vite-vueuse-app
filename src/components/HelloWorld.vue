@@ -12,7 +12,7 @@ defineProps({
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
-      <a target="_blank" href="https://vitejs.dev/">Vite</a> + <a target="_blank" href="https://vuejs.org/">Vue 3</a>.
+      <a target="_blank" href="https://www.youtube.com/watch?v=2yMlzQsH6F8">Build with Ben (#23): VueUse + Vue 3</a>.
     </h3>
   </div>
 </template>
@@ -20,7 +20,7 @@ defineProps({
 <style scoped>
 h1 {
   font-weight: 500;
-  font-size: 2.6rem;
+  font-size: 2rem;
   top: -10px;
 }
 
