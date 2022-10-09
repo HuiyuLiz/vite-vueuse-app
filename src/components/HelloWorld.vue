@@ -11,7 +11,7 @@ defineProps({
   <div class="greetings">
     <h2 class="green">{{ msg }}</h2>
     <h3>
-      You’ve successfully created a project with
+      Created a project with
       <a target="_blank" href="https://www.youtube.com/watch?v=2yMlzQsH6F8">Build with Ben (#23): VueUse + Vue 3</a>.
     </h3>
   </div>
