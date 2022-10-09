@@ -35,7 +35,7 @@ const { style } = useDraggable(el, {
       <button class="btn" :class="mode === 'dark' ? 'btn-dark' : 'btn-light'" @click="switchThemeHandelr">
         Switch Theme
         <IconSun v-if="mode === 'light'" />
-        <IconMoon v-else />
+        <IconMoon v-if="mode === 'dark'" />
       </button>
       <button class="btn" @click="mode = 'cafe'">switch Cafe Mode</button>
     </div>
