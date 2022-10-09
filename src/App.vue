@@ -38,7 +38,7 @@ const { style } = useDraggable(el, {
         <IconMoon v-if="mode === 'dark'" />
         <IconCafe v-if="mode === 'cafe'" />
       </button>
-      <button class="btn" @click="mode = 'cafe'">switch Cafe Mode</button>
+      <button class="btn" @click="mode = 'cafe'">Switch Cafe Mode</button>
     </div>
   </header>
 
